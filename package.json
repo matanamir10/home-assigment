@@ -4,7 +4,8 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",

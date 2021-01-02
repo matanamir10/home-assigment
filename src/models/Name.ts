@@ -1,5 +1,7 @@
 export class Name {
   constructor(public firstName: string, public lastname: string) {}
-}
 
-// TODO: add get and set also
+  get fullName(): string {
+    return `${this.firstName} ${this.lastname}`;
+  }
+}
